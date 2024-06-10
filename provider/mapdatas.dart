@@ -11,7 +11,7 @@ List<DataModel> get datamap => _datamap;
 
 Future<void> getHistoryC(String imeino) async{
 
-var url=Uri.parse('https://irawan.angsoft.info/tests/flutter/map1/history.php');
+var url=Uri.parse(NamaServer.server='tests/flutter/map1/history.php');
 
 final response=await http.post(
   url,
