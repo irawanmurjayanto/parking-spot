@@ -268,7 +268,7 @@ TextEditingController _title=TextEditingController();
     //});
 
     
-       var uploadurl = Uri.parse('https://irawan.angsoft.info/tests/flutter/map1/insert.php');
+       var uploadurl = Uri.parse(NamaServer.server='tests/flutter/map1/insert.php');
 
 
 //  uploadurl.files.add(pic);
